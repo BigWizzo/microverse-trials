@@ -1,0 +1,40 @@
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    padding: 5px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#navbar{
+    display: flex;
+    border: red solid 1px;
+    justify-content: flex-end;
+    background: rgb(177, 59, 59);
+   
+}
+
+
+#welcome-section{
+    /* height: 100vp; */
+    border: red solid 1px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1024px){
+ #welcome-section{
+     height: 100vh;
+ }
+}
