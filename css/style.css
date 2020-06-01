@@ -1,3 +1,7 @@
+h1{
+    font-size: 50px;
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -5,6 +9,8 @@ ul{
 }
 li{
     padding: 5px;
+    padding-right: 20px;
+
 
 }
 a{
@@ -17,6 +23,8 @@ a{
     border: red solid 1px;
     justify-content: flex-end;
     background: rgb(177, 59, 59);
+    position: fixed;
+    width: 100%;
    
 }
 
@@ -27,9 +35,15 @@ a{
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-color: #000;
+    background-color: black;
     color: white;
     font-weight: bold;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 
