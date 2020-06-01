@@ -2,6 +2,11 @@ h1{
     font-size: 50px;
 }
 
+p{
+
+    color: rgb(177, 59, 59);
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -18,6 +23,10 @@ a{
     text-decoration: none;
 }
 
+.contct-div{
+    padding-top: 20px;
+}
+
 #navbar{
     display: flex;
     border: red solid 1px;
@@ -28,10 +37,22 @@ a{
    
 }
 
+#contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 50vh;
+        padding: 0 2rem;
+        background: gray;
+        font-size: 25px;
+}
+
 
 #welcome-section{
     /* height: 100vp; */
-    border: red solid 1px;
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -43,6 +64,7 @@ a{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
 
 }
 
